@@ -82,3 +82,11 @@ bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
 
 You will be now running the Kafka-Manager and should be able to navigate around the GUI.
 Use: http://localhost:8080 on the internet to get to Kafka-Manager
+<br/>
+<br/>
+<br/>
+<br/>
+Now create a cluster and also create a topic. In this instance, "TwitterTweets" will be the topic.
+<br/>
+<br/>
+You also run the producer.py and the connect.py, one after the other.
