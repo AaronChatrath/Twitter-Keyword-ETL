@@ -12,8 +12,9 @@ To run these python scripts we need Kafka-Server, Kafka-Zookeeper and Kafka-Mana
 To run both Kafka-Server and Kafka-Zookeeper. You need to follow the link below and the instructuctions.
 
 https://kafka.apache.org/quickstart
-
-
+<br/>
+<br/>
+<br/>
 After downloading the correct apache Kafka version, you will now be able to run Kafka server and zookeeper with two simple commands.
 In this instance, kafka_2.13-3.2.0 has been downloaded.
 
@@ -29,7 +30,9 @@ Change advirtised.listeners variable to:
 
 Change zookeeper.connect variable to:
 <code>zookeeper.connect=localhost:2181</code>
-
+<br/>
+<br/>
+<br/>
 
 
 Now configuration is done we can look to run zookeeper and server .sh files.
