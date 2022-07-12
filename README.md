@@ -47,8 +47,8 @@ Commands on bash window 2, would be:
 cd kafka_2.13-3.2.0
 JMX_port=8004 bin/kafka-server-start.sh config/server.properties 
 </code>
-
-
+</br>
+</br>
 
 
 Lets set up Kafka-Manager. Now Kafka-Manager isn't neccessary as you can run commands through bash if you don't want to interact with
