@@ -20,12 +20,17 @@ In this instance, kafka_2.13-3.2.0 has been downloaded.
 But before this we need to set up some configurations.
 Head to:
 
-kafka_2.13-3.2.0 > /config/server.properties
+<code>kafka_2.13-3.2.0/config/server.properties</code>
 
+Inside this properties folder:
 
+Change advirtised.listeners variable to:
+<code>advertised.listeners=PLAINTEXT://localhost:9092</code>
 
+Change zookeeper.connect variable to:
+<code>zookeeper.connect=localhost:2181</code>
 
-
+Now configuration is done we can look to run zookeeper and server .sh files.
 
 You need to open up two seperate windows of bash.
 Commands on bash window 1, would be:
