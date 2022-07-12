@@ -60,9 +60,7 @@ In this instance CMAK-3.0.0.6 was downloaded
 Using git clone it should download the latest version.
 Make sure you see the .sbt files present.
 
-Use:
-
-<code>
+Use:<code>
 CMAK-3.0.0.6
 ./sbt clean dist
 </code>
