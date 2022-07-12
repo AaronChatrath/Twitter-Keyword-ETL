@@ -30,12 +30,8 @@ kafka_2.13-3.2.0 > /config/server.properties
 You need to open up two seperate windows of bash.
 Commands on bash window 1, would be:
 
-<code>
- <pre>
-cd kafka_2.13-3.2.0
-bin/zookeeper-server-start.sh config/zookeeper.properties ]
-<pre>
-<code>
+<code>cd kafka_2.13-3.2.0
+bin/zookeeper-server-start.sh config/zookeeper.properties<code>
 
 Commands on bash window 2, would be:
   
