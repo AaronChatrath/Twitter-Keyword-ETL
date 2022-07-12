@@ -66,6 +66,7 @@ CMAK-3.0.0.6
 </code>
 
 After this is done you will see a target directory in current CMAK directory.
+
 Use:<code>
 cd target/universal/cmak-3.0.0.6
 bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
