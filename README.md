@@ -89,4 +89,4 @@ Use: http://localhost:8080 on the internet to get to Kafka-Manager
 Now create a cluster and also create a topic. In this instance, "TwitterTweets" will be the topic.
 <br/>
 <br/>
-You also run the producer.py and the connect.py, one after the other.
+You can now run the producer.py and the connect.py, one after the other.
