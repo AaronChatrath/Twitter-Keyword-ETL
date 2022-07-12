@@ -66,12 +66,10 @@ CMAK-3.0.0.6
 </code>
 
 After this is done you will see a target directory in current CMAK directory.
-Use:
-<code>
+Use:<code>
 cd target/universal/cmak-3.0.0.6
 bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
 </code>
 
 You will be now running the Kafka-Manager and should be able to navigate around the GUI.
-Use:
-http://localhost:8080
+Use: http://localhost:8080 on the internet to get to Kafka-Manager
