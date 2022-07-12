@@ -45,3 +45,35 @@ Commands on bash window 2, would be:
 cd kafka_2.13-3.2.0
 JMX_port=8004 bin/kafka-server-start.sh config/server.properties 
 </code>
+
+
+Lets set up Kafka-Manager. Now Kafka-Manager isn't neccessary as you can run commands through bash if you don't want to interact with
+a GUI. But yes Kafka-Manager is a GUI that provides management and monitoring of your clusters and topic creations.
+
+Open a new bash window. (3rd window)
+
+Use:
+<code>git clone https://github.com/yahoo/CMAK.git</code>
+
+or head to https://github.com/yahoo/CMAK and follow instructions.
+In this instance CMAK-3.0.0.6 was downloaded
+Using git clone it should download the latest version.
+Make sure you see the .sbt files present.
+
+Use:
+
+<code>
+CMAK-3.0.0.6
+./sbt clean dist
+</code>
+
+After this is done you will see a target directory in current CMAK directory.
+Use:
+<code>
+cd target/universal/cmak-3.0.0.6
+bin/cmak -Dconfig.file=conf/application.conf -Dhttp.port=8080
+</code>
+
+You will be now running the Kafka-Manager and should be able to navigate around the GUI.
+Use:
+http://localhost:8080
