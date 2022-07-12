@@ -30,6 +30,8 @@ Change advirtised.listeners variable to:
 Change zookeeper.connect variable to:
 <code>zookeeper.connect=localhost:2181</code>
 
+
+
 Now configuration is done we can look to run zookeeper and server .sh files.
 
 You need to open up two seperate windows of bash.
@@ -45,6 +47,8 @@ Commands on bash window 2, would be:
 cd kafka_2.13-3.2.0
 JMX_port=8004 bin/kafka-server-start.sh config/server.properties 
 </code>
+
+
 
 
 Lets set up Kafka-Manager. Now Kafka-Manager isn't neccessary as you can run commands through bash if you don't want to interact with
